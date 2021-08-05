@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Klass {
     private int number;
-    private Object leader;
+    private Object leader; //Student
     private List<Student> students = new ArrayList<>();
 
     public Klass(int number) {

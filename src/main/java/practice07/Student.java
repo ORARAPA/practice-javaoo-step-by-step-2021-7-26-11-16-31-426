@@ -17,6 +17,6 @@ public class Student extends Person {
         if(getKlass().getLeader() == null){
             return statement + "I am at Class " + this.klass.getNumber() + ".";
         }
-        return statement + "I am Leader of Class " + this.klass.getNumber() + ".";
+        return statement + "I am Leader of Class " + this.klass.getNumber() + "."; //refactor
     }
 }
